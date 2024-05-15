@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFTY</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+</head>
+
+<body>
+
+    <svg class="svg-base">
+
+        <symbol id="home" viewBox="0 0 24 24">
+            <g clip-path="url(#clip0_102_2619)">
+                <path
+                    d="M21 20C21 20.2652 20.8946 20.5196 20.7071 20.7071C20.5196 20.8946 20.2652 21 20 21H4C3.73478 21 3.48043 20.8946 3.29289 20.7071C3.10536 20.5196 3 20.2652 3 20V9.49C2.99989 9.33761 3.03462 9.18721 3.10152 9.0503C3.16841 8.91338 3.26572 8.79356 3.386 8.7L11.386 2.478C11.5615 2.34144 11.7776 2.2673 12 2.2673C12.2224 2.2673 12.4385 2.34144 12.614 2.478L20.614 8.7C20.7343 8.79356 20.8316 8.91338 20.8985 9.0503C20.9654 9.18721 21.0001 9.33761 21 9.49V20Z"
+                    fill="#BDC0C9" />
+            </g>
+            <defs>
+                <clipPath id="clip0_102_2619">
+                    <rect width="24" height="24" fill="white" />
+                </clipPath>
+            </defs>
+        </symbol>
+
+        <symbol id="nav-img" viewBox="0 0 24 24">
+            <g clip-path="url(#clip0_102_2615)">
+                <path
+                    d="M20 13C18.322 13 16.751 13.46 15.407 14.259C16.6038 15.6576 17.5326 17.2648 18.147 19H20V13ZM16.004 19C14.044 14.302 9.408 11 4 11V19H16.004ZM4 9C7.83 9 11.323 10.435 13.974 12.796C15.7639 11.621 17.8589 10.9966 20 11V3H21.008C21.556 3 22 3.445 22 3.993V20.007C21.9982 20.2696 21.8931 20.521 21.7075 20.7068C21.5219 20.8926 21.2706 20.9979 21.008 21H2.992C2.72881 20.9997 2.4765 20.895 2.29049 20.7088C2.10448 20.5226 2 20.2702 2 20.007V3.993C2.00183 3.73038 2.1069 3.47902 2.29251 3.29322C2.47813 3.10742 2.72938 3.00209 2.992 3H6V1H8V5H4V9ZM18 1V5H10V3H16V1H18ZM16.5 10C16.1022 10 15.7206 9.84196 15.4393 9.56066C15.158 9.27936 15 8.89782 15 8.5C15 8.10218 15.158 7.72064 15.4393 7.43934C15.7206 7.15804 16.1022 7 16.5 7C16.8978 7 17.2794 7.15804 17.5607 7.43934C17.842 7.72064 18 8.10218 18 8.5C18 8.89782 17.842 9.27936 17.5607 9.56066C17.2794 9.84196 16.8978 10 16.5 10Z"
+                    fill="#303241" />
+            </g>
+            <defs>
+                <clipPath id="clip0_102_2615">
+                    <rect width="24" height="24" fill="white" />
+                </clipPath>
+            </defs>
+        </symbol>
+
+        <symbol id="search" viewBox="0 0 24 24">
+            <path
+                d="M18.031 16.617L22.314 20.899L20.899 22.314L16.617 18.031C15.0237 19.3082 13.042 20.0029 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20.0029 13.042 19.3082 15.0237 18.031 16.617ZM16.025 15.875C17.2941 14.5699 18.0029 12.8204 18 11C18 7.132 14.867 4 11 4C7.132 4 4 7.132 4 11C4 14.867 7.132 18 11 18C12.8204 18.0029 14.5699 17.2941 15.875 16.025L16.025 15.875V15.875Z"
+                fill="#A6A9B3" />
+        </symbol>
+
+        <symbol id="notif" viewBox="0 0 24 24">
+            <g clip-path="url(#clip0_204_1313)">
+                <path
+                    d="M20 17H22V19H2V17H4V10C4 7.87827 4.84285 5.84344 6.34315 4.34315C7.84344 2.84285 9.87827 2 12 2C14.1217 2 16.1566 2.84285 17.6569 4.34315C19.1571 5.84344 20 7.87827 20 10V17ZM18 17V10C18 8.4087 17.3679 6.88258 16.2426 5.75736C15.1174 4.63214 13.5913 4 12 4C10.4087 4 8.88258 4.63214 7.75736 5.75736C6.63214 6.88258 6 8.4087 6 10V17H18ZM9 21H15V23H9V21Z"
+                    fill="#A6A9B3" />
+            </g>
+            <circle cx="18" cy="4" r="4" fill="#FF646D" />
+            <defs>
+                <clipPath id="clip0_204_1313">
+                    <rect width="24" height="24" fill="white" />
+                </clipPath>
+            </defs>
+        </symbol>
+
+        <symbol id="like" viewBox="0 0 24 24">
+            <g clip-path="url(#clip0_102_2559)">
+                <path
+                    d="M16.5 3C19.538 3 22 5.5 22 9C22 16 14.5 20 12 21.5C9.5 20 2 16 2 9C2 5.5 4.5 3 7.5 3C9.36 3 11 4 12 5C13 4 14.64 3 16.5 3ZM12.934 18.604C13.815 18.048 14.61 17.495 15.354 16.903C18.335 14.533 20 11.943 20 9C20 6.64 18.463 5 16.5 5C15.424 5 14.26 5.57 13.414 6.414L12 7.828L10.586 6.414C9.74 5.57 8.576 5 7.5 5C5.56 5 4 6.656 4 9C4 11.944 5.666 14.533 8.645 16.903C9.39 17.495 10.185 18.048 11.066 18.603C11.365 18.792 11.661 18.973 12 19.175C12.339 18.973 12.635 18.792 12.934 18.604V18.604Z"
+                    fill="#A6A9B3" />
+            </g>
+            <defs>
+                <clipPath id="clip0_102_2559">
+                    <rect width="24" height="24" fill="white" />
+                </clipPath>
+            </defs>
+        </symbol>
+
+        <symbol id="arrow" viewBox="0 0 24 24">
+            <g clip-path="url(#clip0_102_2577)">
+                <path d="M16.071 11.657L10.414 17.314L9 15.9L13.243 11.657L9 7.414L10.414 6L16.071 11.657Z"
+                    fill="white" />
+            </g>
+            <defs>
+                <clipPath id="clip0_102_2577">
+                    <rect width="24" height="24" fill="white" />
+                </clipPath>
+            </defs>
+        </symbol>
+
+        <symbol id="arrowR" viewBox="0 0 24 24">
+            <path d="M16.05 7.05005L14.636 8.46405L17.172 11H4V13H17.172L14.636 15.536L16.05 16.95L21 12L16.05 7.05005Z"
+                fill="#A6A9B3" />
+        </symbol>
+
+        <symbol id="refresh" viewBox="0 0 24 24">
+            <g clip-path="url(#clip0_102_2690)">
+                <path
+                    d="M5.463 4.43301C7.27756 2.86067 9.59899 1.99666 12 2.00001C17.523 2.00001 22 6.47701 22 12C22 14.136 21.33 16.116 20.19 17.74L17 12H20C20.0001 10.4316 19.5392 8.89781 18.6747 7.58927C17.8101 6.28072 16.5799 5.25517 15.1372 4.64013C13.6944 4.0251 12.1027 3.84771 10.56 4.13003C9.0172 4.41234 7.59145 5.14191 6.46 6.22801L5.463 4.43301ZM18.537 19.567C16.7224 21.1393 14.401 22.0034 12 22C6.477 22 2 17.523 2 12C2 9.86401 2.67 7.88401 3.81 6.26001L7 12H4C3.99987 13.5684 4.46075 15.1022 5.32534 16.4108C6.18992 17.7193 7.42007 18.7449 8.86282 19.3599C10.3056 19.9749 11.8973 20.1523 13.44 19.87C14.9828 19.5877 16.4085 18.8581 17.54 17.772L18.537 19.567Z"
+                    fill="#A6A9B3" />
+            </g>
+            <defs>
+                <clipPath id="clip0_102_2690">
+                    <rect width="24" height="24" fill="white" />
+                </clipPath>
+            </defs>
+        </symbol>
+
+    </svg>
+
+    <div class="container">
+
+        <div class="nav">
+
+            <div class="logo">
+                <img src="./assets/images/logo.png" alt="">
+            </div>
+
+            <ul class="menu">
+                <li class="menu-item mi-active">
+                    <svg>
+                        <use href="#home"></use>
+                    </svg>
+                </li>
+                <li class="menu-item">
+                    <svg>
+                        <use href="#nav-img"></use>
+                    </svg>
+                </li>
+                <li class="menu-item">
+                    <svg>
+                        <use href="#nav-img"></use>
+                    </svg>
+                </li>
+                <li class="menu-item">
+                    <svg>
+                        <use href="#nav-img"></use>
+                    </svg>
+                </li>
+                <li class="menu-item">
+                    <svg>
+                        <use href="#nav-img"></use>
+                    </svg>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="main">
+
+            <div class="panel-head">
+
+                <div class="head-icon bars">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z" />
+                    </svg>
+                </div>
+
+                <div class="search-box">
+                    <svg>
+                        <use href="#search"></use>
+                    </svg>
+                    <input type="text" placeholder="Search market">
+                </div>
+
+                <div class="profile">
+
+                    <div class="head-icon">
+                        <svg>
+                            <use href="#like"></use>
+                        </svg>
+                    </div>
+
+                    <div class="head-icon">
+                        <svg>
+                            <use href="#notif"></use>
+                        </svg>
+                    </div>
+
+                    <div class="user head-icon">
+                        <span>M.Amin.B</span>
+                        <img src="./assets/images/Prof.svg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="panel-body">
+                <div class="left-content">
+
+                    <div class="topCard-container scrollbar">
+
+                        <div class="topCard">
+                            <div class="topCard-title">
+                                <img src="./assets/images/BTC.svg" alt="">
+                                <div class="topCard-content">
+                                    <p>Bitcoin (24h)</p>
+                                    <div class="sup">
+                                        <img src="./assets/images/rectangleGreen.svg" alt="">
+                                        <span class="sup-color">+2.31%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="topCard-desc"><span>$</span>32,482.44</p>
+                        </div>
+
+                        <div class="topCard">
+                            <div class="topCard-title">
+                                <img src="./assets/images/ETH.svg" alt="">
+                                <div class="topCard-content">
+                                    <p>Ethereum (24h)</p>
+                                    <div class="sup">
+                                        <img src="./assets/images/rectangleGreen.svg" alt="">
+                                        <span class="sup-color">+5.12%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="topCard-desc"><span>$</span>1,021.49</p>
+                        </div>
+
+                        <div class="topCard">
+                            <div class="topCard-title">
+                                <img src="./assets/images/BNB.svg" alt="">
+                                <div class="topCard-content">
+                                    <p>BNB (24h)</p>
+                                    <div class="sup">
+                                        <img src="./assets/images/rectangleRed.svg" alt="">
+                                        <span class="sup-color supC2">-10.4%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="topCard-desc"><span>$</span>9,589.57</p>
+                        </div>
+
+                        <div class="topCard">
+                            <div class="topCard-title">
+                                <img src="./assets/images/SushiSwap.svg" alt="">
+                                <div class="topCard-content">
+                                    <p>Sushi (24h)</p>
+                                    <div class="sup">
+                                        <img src="./assets/images/rectangleGreen.svg" alt="">
+                                        <span class="sup-color">+6.01%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="topCard-desc"><span>$</span>438.76</p>
+                        </div>
+
+                    </div>
+
+                    <section>
+
+                        <div class="section-title">
+                            <div class="title">
+                                <p>Top NFT this month</p>
+                                <p>Top NFT</p>
+                            </div>
+                            <div class="more">
+                                <p>See all </p>
+                                <svg>
+                                    <use href="#arrow"></use>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="Card-container scrollbar">
+
+                            <div class="card">
+
+                                <div class="time-box">
+                                    <p>1h 35m 9s</p>
+                                </div>
+
+                                <img src="./assets/images/card1.svg" alt="">
+
+                                <div class="card-prof">
+                                    <p>Malika Yanchenko</p>
+                                    <img src="./assets/images/cardProf1.svg" alt="">
+                                </div>
+
+                                <p class="card-name">Pandora Street Key #5</p>
+
+                                <div class="card-content">
+                                    <div class="">
+                                        <p>Current Bid</p>
+                                        <p>0.932 ETH</p>
+                                    </div>
+                                    <button class="card-btn">Bidded</button>
+                                </div>
+
+                            </div>
+
+                            <div class="card">
+
+                                <div class="time-box">
+                                    <p>1h 35m 9s</p>
+                                </div>
+
+                                <img src="./assets/images/card2.svg" alt="">
+
+                                <div class="card-prof">
+                                    <p>Oscar Valdi</p>
+                                    <img src="./assets/images/cardProf2.svg" alt="">
+                                </div>
+
+                                <p class="card-name">Ring of eternity and love</p>
+
+                                <div class="card-content">
+                                    <div class="">
+                                        <p>Current Bid</p>
+                                        <p>0.529 ETH</p>
+                                    </div>
+                                    <button class="card-btn">Bidded</button>
+                                </div>
+
+                            </div>
+
+                            <div class="card">
+
+                                <div class="time-box">
+                                    <p>1h 35m 9s</p>
+                                </div>
+
+                                <img src="./assets/images/card3.svg" alt="">
+
+                                <div class="card-prof">
+                                    <p>Kimmi Jon</p>
+                                    <img src="./assets/images/cardProf3.svg" alt="">
+                                </div>
+
+                                <p class="card-name">Head sculpture #2</p>
+
+                                <div class="card-content">
+                                    <div class="">
+                                        <p>Current Bid</p>
+                                        <p>1.742 ETH</p>
+                                    </div>
+                                    <button class="card-btn">Bidded</button>
+                                </div>
+
+                            </div>
+
+                            <div class="card">
+
+                                <div class="time-box">
+                                    <p>1h 35m 9s</p>
+                                </div>
+
+                                <img src="./assets/images/card4.svg" alt="">
+
+                                <div class="card-prof">
+                                    <p>Kayli Hifner</p>
+                                    <img src="./assets/images/cardProf4.svg" alt="">
+                                </div>
+
+                                <p class="card-name">Thinking about the future</p>
+
+                                <div class="card-content">
+                                    <div class="">
+                                        <p>Current Bid</p>
+                                        <p>1 ETH</p>
+                                    </div>
+                                    <button class="card-btn">Bidded</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <section>
+
+                        <div class="section-title">
+                            <div class="title">
+                                <p>Biggest transactions of the month</p>
+                                <p>Biggest transactions</p>
+                            </div>
+                            <div class="more">
+                                <p>See all </p>
+                                <svg>
+                                    <use href="#arrow"></use>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="record-container scrollbar">
+
+                            <div class="rec-custom">
+                                <span>#</span>
+                                <span>From</span>
+                                <span>To</span>
+                                <span>Currency</span>
+                                <span>Price</span>
+                                <span>Amount</span>
+                                <span>Buy/Sell</span>
+                                <span>Date</span>
+                            </div>
+
+                            <div class="record">
+                                <p class="txtBlue"><span>1</span> 0xce4...Qnoy</p>
+                                <span class="txtBlue">0xr3...rq3Z</span>
+                                <div class="record-name">
+                                    <img src="./assets/images/BTC.svg" alt="">
+                                    <span>Bitcoin</span>
+                                </div>
+                                <span>$21,843.47</span>
+                                <div class="record-price">
+                                    <span>19BTC</span>
+                                    <span>$399,000</span>
+                                </div>
+                                <button>Buy</button>
+                                <span>12/08/2022</span>
+                            </div>
+
+                            <div class="record">
+                                <p class="txtBlue"><span>2</span> 0xce4...Qnoy</p>
+                                <span class="txtBlue">0xr3...rq3Z</span>
+                                <div class="record-name">
+                                    <img src="./assets/images/tether.svg" alt="">
+                                    <span>Tether</span>
+                                </div>
+                                <span>$23,039.52</span>
+                                <div class="record-price">
+                                    <span>17.83BTC</span>
+                                    <span>$399,000</span>
+                                </div>
+                                <button class="btnG">Sell</button>
+                                <span>12/08/2022</span>
+                            </div>
+
+                            <div class="record">
+                                <p class="txtBlue"><span>3</span> 0xce4...Qnoy</p>
+                                <span class="txtBlue">0xr3...rq3Z</span>
+                                <div class="record-name">
+                                    <img src="./assets/images/ETH.svg" alt="">
+                                    <span>Ethereum</span>
+                                </div>
+                                <span>$3,403.70</span>
+                                <div class="record-price">
+                                    <span>19BTC</span>
+                                    <span>$399,000</span>
+                                </div>
+                                <button>Buy</button>
+                                <span>12/08/2022</span>
+                            </div>
+
+                            <div class="record">
+                                <p class="txtBlue"><span>3</span> 0xce4...Qnoy</p>
+                                <span class="txtBlue">0xr3...rq3Z</span>
+                                <div class="record-name">
+                                    <img src="./assets/images/SushiSwap.svg" alt="">
+                                    <span>SushiSwap</span>
+                                </div>
+                                <span>$2,736.11</span>
+                                <div class="record-price">
+                                    <span>14.78BTC</span>
+                                    <span>$399,000</span>
+                                </div>
+                                <button>Buy</button>
+                                <span>12/08/2022</span>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <div class="right-content">
+
+                    <div class="exchange">
+
+                        <div class="exch-top">
+                            <p>Exchange</p>
+                            <svg>
+                                <use href="#refresh"></use>
+                            </svg>
+                        </div>
+
+                        <div class="exch-middle">
+                            <p>1<span>BTC</span></p>
+                            <svg>
+                                <use href="#arrowR"></use>
+                            </svg>
+                            <p>52415.31<span>USDT</span></p>
+                        </div>
+
+                        <div class="exch-bottom">
+                            <label for="">Get</label>
+                            <div class="exch-bottom-c">
+                                <input type="text" value="6000">
+                                <div>
+                                    <img src="./assets/images/tether.svg" alt="">
+                                    <svg class="arrow">
+                                        <use href="#arrow"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="exch-bottom">
+                            <label for="">Pay</label>
+                            <div class="exch-bottom-c">
+                                <input type="text" value="0.8511">
+                                <div>
+                                    <img src="./assets/images/BTC.svg" alt="">
+                                    <svg class="arrow">
+                                        <use href="#arrow"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="card-btn">Exchange</button>
+
+                    </div>
+
+                    <div class="transact-chart">
+                        <div class="transaction">
+                            <img src="./assets/images/circle.svg" alt="">
+                            <div class="transaction-text">
+                                <p>80% of transactions</p>
+                                <p>Absolutely on this platform</p>
+                            </div>
+                        </div>
+
+                        <div class="chart">
+
+                            <div class="chart-content">
+                                <p>Income And Outcome</p>
+                                <p>Based on your performance</p>
+                            </div>
+
+                            <img src="./assets/images/Chart.svg" alt="">
+
+                            <div class="checkBoxs">
+                                <div class="checkBox">
+                                    <input type="checkbox" checked>
+                                    <lable>income</lable>
+                                </div>
+
+                                <div class="checkBox cb2">
+                                    <input type="checkbox" checked>
+                                    <lable>outcome</lable>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="overlay"></div>
+
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
