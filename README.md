@@ -55,7 +55,7 @@ To style the page, I have used the Grid module and the Flex module, which is CSS
 
 ## 👀 Demo
 
-[Live Preview](https://m-amin-b.github.io/nfty-panel/)
+[Live Preview](https://m-amin-b.github.io/nfty/)
 
 ## 👨‍💻 Development
 
